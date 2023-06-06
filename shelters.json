@@ -1,0 +1,43 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" :
+      {
+        "type" : "Point",
+        "coordinates" : [
+          -105.0036435, 39.7153513800001
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 1,
+        "Name" : "Denver Animal Shelter",
+        "Address" : "1241 W Bayaud Ave",
+        "Phone" : "720-913-1311",
+        "Hours" : "Mon-Fri 11:30am-6:30pm, Sat-Sun 11am-4pm",
+        "Description" : "Open admission; night drop; safe haven program"
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" :
+      {
+        "type" : "Point",
+        "coordinates" : [
+          -104.9025547, 39.6789562600001
+        ]
+      },
+      "properties" : {
+        "OBJECTID" : 2,
+        "Name" : "Denver Dumb Friends League",
+        "Address" : "2080 S Quebec St",
+        "Phone" : "303-751-5772",
+        "Hours" : "Wed & Fri 11am-6pm, all other days 10am-5pm",
+        "Description" : "Open admission; night drop"
+      }
+    }
+  ]
+}

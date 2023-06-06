@@ -1,0 +1,258 @@
+{
+  "currentVersion" : 11,
+  "id" : 0,
+  "name" : "Animal Shelters (Open Admission)",
+  "type" : "Feature Layer",
+  "serviceItemId" : "c0eba6dc7e044c2a9d220f6409dfcab7",
+  "cacheMaxAge" : 30,
+  "displayField" : "Name",
+  "description" : "",
+  "copyrightText" : "",
+  "defaultVisibility" : true,
+  "editingInfo" : {
+    "lastEditDate" : 1665800709065,
+    "schemaLastEditDate" : 1665800709065,
+    "dataLastEditDate" : 1665800709065
+  },
+  "relationships" : [],
+  "isDataVersioned" : false,
+  "hasContingentValuesDefinition" : false,
+  "supportsAppend" : true,
+  "supportsCalculate" : true,
+  "supportsASyncCalculate" : true,
+  "supportsTruncate" : true,
+  "supportsAttachmentsByUploadId" : true,
+  "supportsAttachmentsResizing" : true,
+  "supportsRollbackOnFailureParameter" : true,
+  "supportsStatistics" : true,
+  "supportsExceedsLimitStatistics" : true,
+  "supportsAdvancedQueries" : true,
+  "supportsValidateSql" : true,
+  "supportsCoordinatesQuantization" : true,
+  "supportsLayerOverrides" : true,
+  "supportsTilesAndBasicQueriesMode" : true,
+  "supportsFieldDescriptionProperty" : true,
+  "supportsQuantizationEditMode" : true,
+  "supportsApplyEditsWithGlobalIds" : false,
+  "supportsReturningQueryGeometry" : true,
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true,
+    "supportsQueryAttachmentsCountOnly" : true,
+    "supportsPaginationOnAggregatedQueries" : true,
+    "supportsQueryRelatedPagination" : true,
+    "supportsQueryWithDistance" : true,
+    "supportsReturningQueryExtent" : true,
+    "supportsStatistics" : true,
+    "supportsOrderBy" : true,
+    "supportsDistinct" : true,
+    "supportsQueryWithResultType" : true,
+    "supportsSqlExpression" : true,
+    "supportsAdvancedQueryRelated" : true,
+    "supportsCountDistinct" : true,
+    "supportsPercentileStatistics" : true,
+    "supportsSpatialAggregationStatistics" : true,
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsLod" : true,
+    "supportsQueryWithLodSR" : false,
+    "supportedLodTypes" : [
+      "geohash"
+    ],
+    "supportsReturningGeometryCentroid" : false,
+    "supportsQueryWithDatumTransformation" : true,
+    "supportsHavingClause" : true,
+    "supportsOutFieldSQLExpression" : true,
+    "supportsMaxRecordCountFactor" : true,
+    "supportsTopFeaturesQuery" : true,
+    "supportsDisjointSpatialRel" : true,
+    "supportsQueryWithCacheHint" : true,
+    "supportedOperationsWithCacheHint" : [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated"
+    ],
+    "supportsQueryAnalytic" : true,
+    "supportsDefaultSR" : true,
+    "supportsFullTextSearch" : true
+  },
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true,
+    "supportsAsync" : true,
+    "supportsPercentileAnalytic" : true
+  },
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits" : true,
+    "supportsReturnEditResults" : true,
+    "supportsApplyEditsbyUploadID" : true,
+    "supportedApplyEditsUploadIDFormats" : "JSON"
+  },
+  "infoInEstimates" : [
+    "extent",
+    "count"
+  ],
+  "useStandardizedQueries" : true,
+  "geometryType" : "esriGeometryPoint",
+  "minScale" : 0,
+  "maxScale" : 0,
+  "extent" : {
+    "xmin" : -11688952.125858424,
+    "ymin" : 4819398.167600126,
+    "xmax" : -11677698.972117521,
+    "ymax" : 4824663.727327954,
+    "spatialReference" : {
+      "wkid" : 102100,
+      "latestWkid" : 3857
+    }
+  },
+  "drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriPMS","url":"5b013e8014cddfee31fb4a3bdd2c498f","imageData":"iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC+klEQVQ4ja2UXUhTYRjH/25neyfHnR3HOqKhbqAXQ1mjoISKWRcafnan0IVC4IUFTQVDkiwQIkFTUC+80MCr6EYrAwXBGF0YGSZChILTi6ItbBsed97zoV1sO86PCqHn6vB8/M7zf5/3eRn8R2P+EjN1NfvKsnnWY8jIyJNkNWy1MIF7/TNLp4INdda1UFn127lMNzEzYAwZAICoSNHnr/oiK9pY98js4F9hD25fLzwrcMOZFlONTeBAzAxsghP5JT6sfZgGJ0ZAZdW9HYs/62+vvtExMFMLQDkRJtjZYStLauxc5oHP5UVBaTli4U1srS6AmBnkOqwgZqayt7Visnt0rvEYbKizroVjSY2ryA1JjICKEQCA7UxhAuo8h63VhYRPcIKwEVBZbRi+Xx+4+3R6JB1morLqF1wFuNzQAypGMD/eljin8CYElxeh4Ge929JrTbAJTrwabMLXzZ93ABzAupp9ZXYu023LdgAACMuDsDyoGMHa4hS2Vhf0TgnLwyY4AQB5RecR/hVwdzX7rj55/i7AAEA2z3qImYGULKBpMlPFoY1lPZYyKkZgNBqQzbMeAAmYrGgmxpABKkbw/sVjEJbXzyYlKRoK4uOboUM50VAQFpMRsqKZjk0TAKKhoP5dfLFel2QTnLjS0IP58bZDOerePqws4XWYK4cLREUKLsuiJxWUlkNweQ/9iLA8ii/dxNrilO4T4zKgaa912K2HL5cGOmpWqKx6iJkBYXnkl/iONq13m4JRWcWupKy0J1dMl6lqe2PbsfhwrsOKHJdXl3eSFZSWY2t1AduxOHYlZSLl12Gdg29H+tura4mZqRTSpvpjYxmx8CbyS3ywJK9MNBTEdiyO6I40m76jhwbQMTBT29taMUnlQMO39U9gjAY9lrr9VFZTHc0mdxMnwgAo3aNzjX3+qkBsR3rEZVkcRqMBFpMR6t4+xLiMXUlZ2ZWUiX++GumSAYwMdVRfoNp+maxoJk1Vv/NZlvX2075nKUs+hH8sPmq/Afn2QivnKOPsAAAAAElFTkSuQmCC","contentType":"image/png","width":14,"height":14,"angle":0,"xoffset":0,"yoffset":0}},"scaleSymbols":true,"transparency":0,"labelingInfo":null},
+  "allowGeometryUpdates" : true,
+  "hasAttachments" : false,
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText",
+  "hasM" : false,
+  "hasZ" : false,
+  "objectIdField" : "OBJECTID",
+  "uniqueIdField" :
+  {
+    "name" : "OBJECTID",
+    "isSystemMaintained" : true
+  },
+  "globalIdField" : "",
+  "typeIdField" : "",
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "OBJECTID",
+      "sqlType" : "sqlTypeOther",
+      "nullable" : false,
+      "editable" : false,
+      "domain" : null,
+      "defaultValue" : null
+    },
+    {
+      "name" : "Name",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "sqlType" : "sqlTypeOther",
+      "length" : 8000,
+      "nullable" : true,
+      "editable" : true,
+      "domain" : null,
+      "defaultValue" : null
+    },
+    {
+      "name" : "Address",
+      "type" : "esriFieldTypeString",
+      "alias" : "Address",
+      "sqlType" : "sqlTypeOther",
+      "length" : 8000,
+      "nullable" : true,
+      "editable" : true,
+      "domain" : null,
+      "defaultValue" : null
+    },
+    {
+      "name" : "Phone",
+      "type" : "esriFieldTypeString",
+      "alias" : "Phone",
+      "sqlType" : "sqlTypeOther",
+      "length" : 8000,
+      "nullable" : true,
+      "editable" : true,
+      "domain" : null,
+      "defaultValue" : null
+    },
+    {
+      "name" : "Hours",
+      "type" : "esriFieldTypeString",
+      "alias" : "Hours",
+      "sqlType" : "sqlTypeOther",
+      "length" : 8000,
+      "nullable" : true,
+      "editable" : true,
+      "domain" : null,
+      "defaultValue" : null
+    },
+    {
+      "name" : "Description",
+      "type" : "esriFieldTypeString",
+      "alias" : "Description",
+      "sqlType" : "sqlTypeOther",
+      "length" : 8000,
+      "nullable" : true,
+      "editable" : true,
+      "domain" : null,
+      "defaultValue" : null
+    }
+  ],
+  "indexes" : [
+    {
+      "name" : "user_7647.ANIMAL_SHELTERS__OPEN_ADMISSION__ANIMAL_SHELTERS__OPEN_ADMISSION__Shape_sidx",
+      "fields" : "Shape",
+      "isAscending" : true,
+      "isUnique" : false,
+      "description" : ""
+    },
+    {
+      "name" : "PK__ANIMAL_S__F4B70D85CEBF39D2",
+      "fields" : "OBJECTID",
+      "isAscending" : true,
+      "isUnique" : true,
+      "description" : "clustered, unique, primary key"
+    }
+  ],
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC",
+    "respectsDaylightSaving" : false
+  },
+  "preferredTimeReference" : null,
+  "types" : [],
+  "templates" : [
+    {
+      "name" : "Animal Shelters (Open Admission)",
+      "description" : "",
+      "drawingTool" : "esriFeatureEditToolPoint",
+      "prototype" : {
+        "attributes" : {
+          "Hours" : null,
+          "Description" : null,
+          "Name" : null,
+          "Address" : null,
+          "Phone" : null
+        }
+      }
+    }
+  ],
+  "supportedQueryFormats" : "JSON, geoJSON, PBF",
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel",
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,excel",
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "supportedContingentValuesFormats" : "JSON, PBF",
+  "supportedSyncDataOptions" : 4,
+  "hasStaticData" : false,
+  "maxRecordCount" : 2000,
+  "standardMaxRecordCount" : 32000,
+  "standardMaxRecordCountNoGeometry" : 32000,
+  "tileMaxRecordCount" : 8000,
+  "maxRecordCountFactor" : 1,
+  "capabilities" : "Query"
+}
