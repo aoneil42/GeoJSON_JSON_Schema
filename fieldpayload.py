@@ -1,5 +1,11 @@
 import json
 
+esrisdjson = input("Esri Service Definition JSON file: ")
+geojsonschema = "geojsonschema.json"
+projecttitle = input("Project title: ")
+projectdesc = input("Project description: ")
+outputjson = projecttitle+"_JSONSchema.json"
+
 typedict = {"esriFieldTypeOID":"integer",
             "esriFieldTypeString":"string",
             "esriFieldTypeInteger":"number",
@@ -33,12 +39,14 @@ def payload(j):
 def insertpayload(j, p):
     with open(j) as f:
         jsonsch = json.load(f)
+        jsonsch['title'] = prjecttitle
+        jsonshc['description'] = projectdesc
         jsonsch['definitions']['feature']['properties']['properties']['oneOf'][0]['properties'] = p
     return jsonsch
 
-originschema = loadjsonfields("testesrischema.json")
+originschema = loadjsonfields(esrisdjson)
 fieldpayload = payload(originschema)
-results = json.dumps(insertpayload("geojsonJSONSchema.json", fieldpayload), indent=4)
+results = json.dumps(insertpayload(geojsonschema, fieldpayload), indent=4)
 
-with open("results.json", "w") as outfile:
+with open(outputjson, "w") as outfile:
     outfile.write(results)

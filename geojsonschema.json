@@ -1,5 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Example Schema",
+  "description": "The output we expect from our post processing system",
+  "type": "GeoJSON",
   "additionalProperties": true,
   "definitions": {
     "coordinates": {
